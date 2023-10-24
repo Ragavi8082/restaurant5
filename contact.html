@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Restaurant Name</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section class="contact">
+        <h2>Have questions or want to make a reservation? Contact us below:</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FIVE STAR RESTAURANT</p>
+    </footer>
+</body>
+</html>
